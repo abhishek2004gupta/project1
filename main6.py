@@ -1,9 +1,8 @@
 from discord.ext import commands
 import discord
-
 intents = discord.Intents.all()
 thank_points = {}
-reaction_counts = {} 
+reaction_counts = {}
 final_reactions = {}
 bot = commands.Bot(command_prefix="!", intents=intents)
 
